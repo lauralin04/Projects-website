@@ -16,11 +16,19 @@ export const projects = [
     link: "https://devpost.com/software/speedyfingies",
   },
   {
-    title: "FPGA Rhythm Game (in progress)",
+    title: "FPGA Rhythm Game (completed)",
     subtitle: "Verilog",
     description:
-      "A rhythm game to be built on the DE1-SOC board. The project will include VGA display, access to on baord RAM, and input from a ps2 keyboard. ",
+      "A rhythm game built on the DE1-SOC board. The project includes VGA display, access to on baord RAM, and input from a ps2 keyboard. ",
     image: "./project_3.jpeg",
+    link: "",
+  },
+  {
+    title: "Speedy Fingies 2.0 (completed)",
+    subtitle: "Arduino and Processing",
+    description:
+      "Rhythm game using Arduino, LED Matrix driver, and Processing to interface to computer speakers. ",
+    image: "./project_4.jpeg",
     link: "",
   },
 ];
