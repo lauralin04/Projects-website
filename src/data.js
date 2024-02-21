@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Rhythm game using Arduino, LED Matrix driver, and Processing to interface to computer speakers. ",
     image: "./project_4.jpeg",
-    link: "",
+    link: "https://devpost.com/software/speedy-fingies-2-0",
   },
 ];
 
