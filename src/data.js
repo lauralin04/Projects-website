@@ -3,7 +3,8 @@ export const projects = [
     title: "Undergraduate Research Project on Computer Generated Machine Learning Datasets (Completed)",
     subtitle: "Unreal Engine, Pytorch ",
     description:
-      "The project was based on improving boating safety with object detection models that can detect obstacles in water. Using Unreal Engine, I wrote scripts to generate customizable, randomized annotated datasets.",
+      "The project was based on improving boating safety with object detection models that can detect obstacles in water. Using Unreal Engine, I wrote scripts to generate customizable, randomized annotated datasets.\
+      Click here to read the documentation.",
     image: "./project_1.png",
     link: "https://docs.google.com/document/d/1b8M_J-tMApZmvTunMwTcVlnVO5pEIh_f8IE6obFjS30/edit?usp=sharing",
   },
@@ -11,7 +12,8 @@ export const projects = [
     title: "Speedy Fingies - Arcade Game",
     subtitle: "Arduino ",
     description:
-      "A game where users tap a sensor in time with dots displayed on an LED matrix. Build using an Arduino.",
+      "A game where users tap a sensor in time with dots displayed on an LED matrix. Build using an Arduino.\
+      Click here to view the Devpost",
     image: "./project_2.jpg",
     link: "https://devpost.com/software/speedyfingies",
   },
@@ -27,7 +29,8 @@ export const projects = [
     title: "Speedy Fingies 2.0",
     subtitle: "Arduino and Processing",
     description:
-      "Rhythm game using Arduino, LED Matrix driver, and Processing to interface to computer speakers. ",
+      "Rhythm game using Arduino, LED Matrix driver, and Processing to interface to computer speakers. \
+      Click here to view the Devpost",
     image: "./project_4.jpeg",
     link: "https://devpost.com/software/speedy-fingies-2-0",
   },
@@ -38,8 +41,9 @@ export const projects = [
       "Ping pong game writen for the Nios-II processor on DE!-SOC. I wrote the graphics engine in C, which\
       used a 3D coordinate system, and basic raytracing algorithms to project the 3D objects onto\
       a 2D plane. I also implemented background music using interupts, to ensure that music could \
-      play while graphics was being processed.",
-    image: "./project_3.jpeg",
+      play while graphics was being processed.\
+      Click here to view the Github.",
+    image: "./3DPingPong.png",
     link: "https://github.com/LancelotShih/bingpong",
   },
 ];
@@ -50,5 +54,9 @@ export const skills = [
   "Arduino/microcontroller programming",
   "Verilog",
   "Robotics",
-  "Machine learning optimization"
+  "Machine learning optimization",
+  "CUDA Programming",
+  "C", 
+  "Python",
+  "Assembly (Nios II)"
 ];
