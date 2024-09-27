@@ -10,9 +10,9 @@ export default function About() {
                 <br className="hidden lg:inline-block" />
               </h1>
               <p className="mb-8 leading-relaxed">
-                I'm a second year electrical/computer engineering student.
-                I'm still undecided on which areas of ECE I want to specialize in, so for now, 
-                I'm exploring different topics in hardware and software. 
+                I'm a third year computer and electrical engineering student at UofT.
+                I'm interested in software development, computer hardware, graphics, 
+                and machine learning. 
                 On this website, I've showcased some of the projects I've worked on.
               </p>
               <div className="flex justify-center">
