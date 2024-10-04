@@ -1,5 +1,17 @@
 export const projects = [
   {
+    title: "3D Ping-Pong on FPGA Board",
+    subtitle: "Arduino and Processing",
+    description:
+      "Ping pong game writen for the Nios-II processor on DE!-SOC. I wrote the graphics engine in C, which\
+      used a 3D coordinate system, and basic raytracing algorithms to project the 3D objects onto\
+      a 2D plane. I also implemented background music using interupts, to ensure that music could \
+      play while graphics was being processed.\
+      Click here to view the Github.",
+    image: "./3DPingPong.png",
+    link: "https://github.com/LancelotShih/bingpong",
+  },
+  {
     title: "Undergraduate Research Project on Computer Generated Machine Learning Datasets (Completed)",
     subtitle: "Unreal Engine, Pytorch ",
     description:
@@ -34,18 +46,7 @@ export const projects = [
     image: "./project_4.jpeg",
     link: "https://devpost.com/software/speedy-fingies-2-0",
   },
-  {
-    title: "3D Ping-Pong on FPGA Board",
-    subtitle: "Arduino and Processing",
-    description:
-      "Ping pong game writen for the Nios-II processor on DE!-SOC. I wrote the graphics engine in C, which\
-      used a 3D coordinate system, and basic raytracing algorithms to project the 3D objects onto\
-      a 2D plane. I also implemented background music using interupts, to ensure that music could \
-      play while graphics was being processed.\
-      Click here to view the Github.",
-    image: "./3DPingPong.png",
-    link: "https://github.com/LancelotShih/bingpong",
-  },
+  
 ];
 
 
